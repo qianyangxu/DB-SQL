@@ -8,7 +8,6 @@ create or replace FUNCTION fun_split_str_by_char(str IN VARCHAR, split_char IN V
    */
   RESULT VARCHAR2(1024);
   v_index NUMBER;
-
 BEGIN
   v_index := instr(str,split_char,1,1);
   IF behind = 0 THEN
