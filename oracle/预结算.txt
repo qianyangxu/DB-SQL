@@ -1,0 +1,278 @@
+F:\workspace_idea\yujiesuan_sit_fix\src\main\webapp\WEB-INF\classes\com\openeap\modules\
+===============================================================================
+预结算系统预算类型
+106	施工图预算			y01	yu_suan_lx
+107	标准图预算			y02	yu_suan_lx
+108	合同预算(总包)			y03	yu_suan_lx
+109	补充协议预算			y04	yu_suan_lx
+110	工作委托单预算			y05	yu_suan_lx
+111	设计变更预算			y06	yu_suan_lx
+489	合同预算(专业承包)		y07	yu_suan_lx
+497	合同预算(两点一线)		y08	yu_suan_lx
+1550	合同预算（施工图预算审批）	y09	yu_suan_lx
+4297	价差调整预算			y11	yu_suan_lx
+1552	合同预算（合同预算审批）	y10	yu_suan_lx
+4426	合同预算（合同转换）		y12	yu_suan_lx
+7802	合同预算（历史数据补录）	y13	yu_suan_lx
+7941	补充协议预算（历史数据补录）	y14	yu_suan_lx
+7942	设计变更预算（历史数据补录）	y15	yu_suan_lx
+7942	施工图（拦标价）预算	        y16	yu_suan_lx
+====================================================================================
+====================================================================================
+预结算系统预算状态
+3688	新建			001	yu_suan_zt	
+3689	委托审批中		002	yu_suan_zt	
+3690	委托审批通过		003	yu_suan_zt	
+3692	前置条件审批通过	004	yu_suan_zt	
+3698	单方预算成果审批通过	019	yu_suan_zt	
+3695	单方预算审核中		023	yu_suan_zt	
+3696	单方预算审核完成	024	yu_suan_zt	
+3699	单方预算对数中		025	yu_suan_zt	
+3701	对数后预算审核中	026	yu_suan_zt	
+3702	对数后预算审核完成	027	yu_suan_zt	
+3704	对数后预算成果审批通过	028	yu_suan_zt	
+3697	单方预算成果审批中	029	yu_suan_zt	
+3703	对数后预算成果审批中	030	yu_suan_zt	
+3705	退件			031	yu_suan_zt	
+3693	单方预算编制中		032	yu_suan_zt	
+3691	前置条件审批中		101	yu_suan_zt	
+3694	单方预算编制完成	105	yu_suan_zt	
+3700	单方预算对数完成	110	yu_suan_zt	
+4348	预算编制中		210	yu_suan_zt	
+4349	预算编制完成		211	yu_suan_zt	
+4350	预算审核中		212	yu_suan_zt	
+4351	预算审核完成		213	yu_suan_zt	
+4352	预算成果审批中		214	yu_suan_zt	
+4353	预算成果审批完成	215	yu_suan_zt	
+9529	作废			216	yu_suan_zt	作废
+======================================================================================
+h3环境ip tbwzwarnbtisgedj
+10.1.30.200 h3测试
+10.1.14.68  用户UAT
+10.1.19.68 h3生产
+======================================================================================
+总包合同结算			j01	jie_suan_lx	结算类型	1
+独立发包、指定分包结算		j02	jie_suan_lx	结算类型	2
+设计（外委类）合同结算		j04	jie_suan_lx	结算类型	4
+监理、咨询、其他服务类合同结算	j05	jie_suan_lx	结算类型	5
+两点一线结算			j08	jie_suan_lx	结算类型	8
+设备供货安装类合同结算		j09	jie_suan_lx	结算类型	9
+检测类合同结算			j10	jie_suan_lx	结算类型	10
+签证结算			j11	jie_suan_lx	结算类型	11
+维修结算			j12	jie_suan_lx	结算类型	12
+甲供材合同结算			j13	jie_suan_lx	结算类型	13
+=======================================================================================
+=====================================================================
+预结算系统结算状态
+3706	新建			001	jie_suan_zt
+3708	委托审批通过		002	jie_suan_zt
+3710	前置条件审批通过	003	jie_suan_zt
+3711	单方结算编制中		034	jie_suan_zt
+3712	单方结算编制完成	006	jie_suan_zt
+3714	单方结算审核完成	009	jie_suan_zt
+3713	单方结算审核中		021	jie_suan_zt
+3718	单方结算对数中		012	jie_suan_zt
+3719	单方结算对数完成	013	jie_suan_zt
+3728	结算成果验收通过	016	jie_suan_zt
+4456	结算成果验收中		017	jie_suan_zt
+3725	退件			018	jie_suan_zt
+3727	结算成果编制完成	027	jie_suan_zt
+4441	成本部对数后验收审批中	028	jie_suan_zt
+3723	对数后结算财务终审完成	029	jie_suan_zt
+3707	委托审批中		030	jie_suan_zt
+3724	结算验收通过		031	jie_suan_zt
+3715	单方结算三审完成	032	jie_suan_zt
+3717	单方结算财务终审完成	033	jie_suan_zt
+3726	结算成果编制中		037	jie_suan_zt
+3722	对数后结算三审完成	038	jie_suan_zt
+3709	前置条件审批中		101	jie_suan_zt
+3716	成本部单方验收审批中	109	jie_suan_zt
+3720	对数后结算审核中	113	jie_suan_zt
+3721	对数后结算审核完成	114	jie_suan_zt
+8544	单方财务终审完成(结算书封面盖章及支付证书审批中)	120	jie_suan_zt
+8546	单方财务终审完成(结算书封面盖章及支付证书审批通过)	121	jie_suan_zt
+8434	固化数据调整审批中	123	jie_suan_zt
+8435	固化数据调整审批通过	124	jie_suan_zt
+8545	对数后财务终审完成(结算书封面盖章及支付证书审批中)	125	jie_suan_zt
+8547	对数后财务终审完成(结算书封面盖章及支付证书审批通过)	126	jie_suan_zt
+4444	成本部对数后验收审批中	209	jie_suan_zt
+8182	作废	210	jie_suan_zt
+====================================================================================
+BZFS    编制方式：01-集团内部编制，02-翔实公司编制，03-外部咨询公司编制
+BZFS    NB内部
+经营类型：1:自营;2:非自营
+结算审批事项：1:非简易类合同结算;2:简易类合同结算
+发包类型：1、联合体；2、联营；3、直接发包；4、独立发包
+实例对象级别（1项目，2期区，3单位工程，4楼栋，5楼栋产品）
+
+YJ_HE_TONG_XIN_XI_T.type  1：合同；2：规划合同
+yj_pm_contract.CONTRACTCLASS  合同性质，1：合同，2：分合同，3：补充协议
+PREV_STATE合同预算状态:0、无预算;1、部分完成;2、已完成;
+yj_pm_bangding.OBJTYPE  对象类型 1-期区 2-单位工程 3-楼栋
+补充协议：bcxy --> 0，设计变更: sjbg--> 1，工程签证: gcqz--> 2，工作委托: gzwt--> 3，合同价差调整: htjc--> 4，工程奖罚: gcjf--> 5
+分摊原则：1、按楼栋建筑面积分摊；2、按地上面积分摊；3、按地下面积分摊；
+
+Result	 * Reject|Cancel: state=3 子类自主处理，父类不做任何操作 <br/>
+	 * Start: state=1 子类处理，父类不做任何操作；state=2 子类仅返回流程数据项 <br/>
+	 * Send: state=1 子类处理，父类发送流程、更新状态、保存日志；state=2 子类仅返回流程数据项；
+	 state=3 子类处理全部操作，父类不做任何操作；state=其他值 操作返回status=0 <br/>
+
+ yj_shen_he_yi_jian_t.deal_result审批结果：0 - 启动，1 - 通过，2 - 驳回，3 - 不同意，4 - 升级，5 - 加办，6 - 取消
+ YJ_BIND_INSTANCE_INFO.status流程状态:0、当前激活；1、结束；2、取消
+ YJ_BIND_INSTANCE_INFO.result流程结果：0-正在进行，1-通过，2-不通过，3-取消
+
+ YJ_PM_CONTRACT 合同信息 实体类  "1".equals(heTongXinXiT.getType()) CONTRACTCLASS:合同性质，1：合同，2：分合同，3：补充协议
+ YJ_PRJCONTRACT 合约规划 实体类  "2".equals(heTongXinXiT.getType())
+
+ insertApprovalLog(instanceId, "0", getBizType(), bizId, null, user, result.getWorkItemID(), null);往yj_shen_he_yi_jian_t表添加审核记录
+ InstanceInfo instanceInfo = getInstanceInfo(bindInstanceInfo.getInstanceId(),workItemId); 获取流程中下一步骤
+ getStatus4Biz(workFlowItem.getActivityName(), isFinished ? "结束" : instanceInfo.getActivityName(), null)
+ 前者是当前流程的步骤名,后者是下一步步骤名
+${param.send eq "dfys" ? "发起单方预算验收" : (param.send eq "dshys" ? "发起对数后预算验收" : "提交")}
+
+在流程中发起一个新的流程
+ ResponseBean<WorkflowResponseBean> responseBean = workflowServerProxy.startWorkflow(null, contextData.bizId, contextData.user, contextData.request, null);
+ 启动一个流程
+ BPMServiceResult result = startWorkflow(ttl == null ? title : ttl, bizId, user, returnTuple != null && returnTuple.state == 2 ? (ArrayOfDataItem)returnTuple.bean : null);
+
+title = yuSuanWeiTuoT.workFlowTitle();
+ 广州珠江国际城项目 - 合同预算(总包) - 不跨期区 - YS0012634
+
+是否拦标价:是第四个流程,否就是第二个流程
+当前工作项不存在，请检查！
+top.$.jBox.tip('正在提交……', 'loading');
+var saveCall = function(){};
+saveCall = function(data) {
+	top.$.jBox.tip(data.message, 'success');
+	window.location.reload(true);
+}
+/0:待财务确认;1:财务已确认
+private static Logger logger = LoggerFactory.getLogger(WeiXiuJieSuanErShenTService.class);
+	@Modifying
+	@Query("delete from YsJieDianZaoJiaT t where t.yuSuanCgZgId=?1")
+	public int delJdczByYuSuanCgZgId(String yuSuanCgZgId);
+SELECT * FROM USER_SOURCE  WHERE  TYPE='TRIGGER' and name = 'TRG_WXES';
+
+SELECT * FROM v$parameter WHERE name = 'nls_date_language';
+ALTER SESSION SET NLS_DATE_LANGUAGE='AMERICAN';
+select dbms_metadata.get_ddl('TRIGGER','TRG_WXES','YJSTEST') from dual;
+SELECT DBMS_METADATA.GET_DDL('VIEW','VIEW_SYNC_GCJSS2') FROM DUAL;
+workflowService.updateBindInstanceInfoIsNormalFinish(bindInstanceInfo.getInstanceId()); // 更新流程是否正常走完标识
+ALTER INDEX PK_T_AUTH_USERROLE_ID UNUSABLE;--禁用索引
+ALTER INDEX UK_T_AUTH_USER_EMP_CODE REBUILD;--恢复索引
+select status,T.* from user_indexes T where table_name='YJ_PRODUCTAREA_INFO';
+select status  from user_indexes where index_name='UK_T_AUTH_USER_EMP_CODE';--查看索引状态
+alter table YJ_BUILDING_T disable constraint PK_XT_BUILDING1;--启用禁用约束
+维修性质为保修期内施工方责任      1    维修合同结算验收-住宅(责任单位维修扣款）- 保修期内无偿维修
+维修性质为保修期外非施工方责任    2    维修合同结算验收-住宅(建设单位有偿维修）- 保修期外有偿维修
+
+操作/结果   yj_shen_he_yi_jian_t.deal_result  0/启动,1/通过,2/驳回
+
+${param.eajt eq '1'}    驳回
+eacs:1      退回重审
+eart:1      退回补充资料
+jieSuanWeiTuoT/view  
+	${param.eacl eq '1'}    取消流程
+	${param.earj eq '1'}    驳回
+
+JsonMapper.getInstance().toJson(result);
+信息类型:0、补充协议；1、设计变更；2、工程签证（签证结算）；3、工作委托单；4、合同价差调整；5、工程奖罚；
+验收类型：1、预算初稿验收；2、预算正稿验收；3、单方结算编制验收；4、单方结算成果验收；5、对数后结算成果验收；6、结算成果验收；7、集团成本部验收；
+
+select a.constraint_name,a.constraint_type,b.column_name,b.table_name
+from user_constraints a inner join user_cons_columns b on a.table_name=b.table_name
+where a.constraint_name=‘SYS_C0012537’
+
+121652
+101213
+===================================================================================
+韩建预算状态
+3689	委托审批中		002	yu_suan_zt
+3688	新建			001	yu_suan_zt
+3690	委托审批通过		003	yu_suan_zt
+3691	前置条件审批中		101	yu_suan_zt
+3692	前置条件审批通过	004	yu_suan_zt
+3693	单方预算编制中		032	yu_suan_zt
+3694	单方预算编制完成	105	yu_suan_zt
+3695	单方预算审核中		023	yu_suan_zt
+3696	单方预算审核完成	024	yu_suan_zt
+3697	单方预算成果审批中	029	yu_suan_zt
+3698	单方预算成果审批通过	019	yu_suan_zt
+3699	单方预算对数中		025	yu_suan_zt
+3700	单方预算对数完成	110	yu_suan_zt
+3701	对数后预算审核中	026	yu_suan_zt
+3702	对数后预算审核完成	027	yu_suan_zt
+3703	对数后预算成果审批中	030	yu_suan_zt
+3704	对数后预算成果审批通过	028	yu_suan_zt
+3705	退件			031	yu_suan_zt
+4348	预算编制中		210	yu_suan_zt
+4349	预算编制完成		211	yu_suan_zt
+4350	预算审核中		212	yu_suan_zt
+4351	预算审核完成		213	yu_suan_zt
+4352	预算成果审批中		214	yu_suan_zt
+4353	预算成果审批完成	215	yu_suan_zt
+9529	作废			216	yu_suan_zt
+==================================================================================
+ps -ef|grep java
+kill -9 6277
+/usr/local/tomcat6/bin/startup.sh
+tail /usr/local/tomcat6/logs/catalina.out -f -n 1000
+=================================================================================================
+问题:
+合同结算委托审批 审批通过后有时没有自动发起子流程 可参照HC75200320130005SJ000020180428001
+点击待办里的流程名,h3会请求地址:http://10.1.30.240:8080/yujiesuan/a/workflow/h3redirect/zjsjbgbzyssp/zjsjbgbzyssp?WorkItemID=573b6861-28c3-4964-be7f-671bf253a03d&flowid=084f0581-73c8-4801-bddc-da50a27fadc3&operationType=1&Varchar1=3&BusinessPortalID=H3&WorkItemState=0&WorkItemType=2
+http://localhost:8080/yujiesuan/a/workflow/h3redirect/zjwbgsbzysls/zjwbgsbzysls?WorkItemID=6ab3cfbb-a07d-449e-8e01-3349d5b68bf3&flowid=9964074d-d087-4d37-ba54-66f48d7b04df&operationType=1&Varchar1=3&BusinessPortalID=H3&WorkItemState=0&WorkItemType=2
+YS0013658 设计变更绑定多份合同
+YS0015196 流程中分配工作弹出选人界面 珠江内部自行编制预算审批
+
+http://10.1.16.49:8080/yujiesuan/a/pm/pmContract/syncContractExt?contractCode=Z000202220120022GC0000&projectCode=Z0002022
+
+AND t.startdate >= to_date('2011-07-01','yyyy-MM-dd')
+AND t.startdate <= to_date('2011-07-02','yyyy-MM-dd'); 
+
+	select * from YJ_YU_SUAN_CG_ZG_T where YU_SUAN_WEI_TUO_ID = '467ef735-9112-497c-8581-f67c9549c81a';
+
+	=SSR_GetParamValue("年份_预结算_翔实") =SSR_GetParamValue("月份_预结算_翔实")
+
+三级菜单配置
+insert into sys_dict
+	(id,label,value,type,description,sort,create_by,create_date,update_by,update_date,remarks,del_flag)
+values( seq_sys_dict.nextval,
+	'项目两书文件','20',
+	'20',
+	'三级菜单配置', 1, 0, systimestamp, null, null, '三级菜单配置', 0);
+
+insert into YJ_NOTICE_TYPE values('40' , '项目两书文件', null, '40', '0,', '1', null, '20');
+
+
+F:\workspace_idea\yujiesuan\out\artifacts\yujiesuan_war_exploded\WEB-INF\classes\com\openeap\modules\
+/usr/local/tomcat6/webapps/yujiesuan/WEB-INF/classes/com/openeap/modules
+
+left join yj_prjcontract prj on prj.HETONGBIANHAO = HT.HE_TONG_BIAN_HAO
+="update yj_yu_suan_wei_tuo_t set ZHUAN_HTYS_ZT = '3' where WEI_TUO_BIAN_HAO ='"&C2&"';"
+="'"&A2&"',"
+
+项目迁移
+北京中关村项目:Z0001013
+IDEA 激活码 + Activation code 激活失败的解决
+
+①进入 C:\windows\system32\drivers\etc
+
+②打开hosts文件，并加入：   0.0.0.0 account.jetbrains.com   之后保存，再去激活就可以了
+
+oninput="value=value.replace(/[^\\d+(\\.\\d+)?$]/g,'')" value="<fmt:formatNumber pattern="#.########" value="${biaoZhunQingDanT.shuiLv}"/>
+
+h3跳转链接
+http://10.1.30.240:8080/yujiesuan/a/workflow/h3redirect/zjsgtqdysyssp/zjsgtqdysyssp?WorkItemID=e480fc71-3f82-4ba2-a742-a26ad3d3ef29&flowid=45970520-36b8-41a0-8df0-2ada83808644&operationType=1&Varchar1=3&BusinessPortalID=H3&WorkItemState=0&WorkItemType=0
+
+-- 委托时间更新
+select WEI_TUO_SJ from YJ_JIE_SUAN_WEI_TUO_T where wei_tuo_bh = 'Z000106720160003GC000020191008001'; -- 2019-10-08
+update YJ_JIE_SUAN_WEI_TUO_T set WEI_TUO_SJ = TO_DATE('2020-01-08') where wei_tuo_bh = 'Z000106720160003GC000020191008001';
+
+
+
+http://10.1.16.49:8080/yujiesuan/a/yusuan/yuSuanCgZgT/form?yuSuanCgzgLeiXing=2&yuSuanWeiTuoId=cef45414-a60b-4dc5-87c3-b55ed15d878d&eajt=1&isbz=1&easlp=1&eady=1&eaxj=1&send=dfys&svdt=1&earj=1&ActivtyName=%E9%A2%84%E7%AE%97%E7%BB%8F%E5%8A%9E%E4%BA%BA%E5%BD%95%E5%85%A5%E5%8D%95%E6%96%B9%E9%A2%84%E7%AE%97&adminPath=a&instanceId=fb03190a-2d75-4bbd-96f0-ab0575b26adb&bizType=yswt&pointcode=zjwbgsbzysls&contextPath=yujiesuan&workItemType=2&readyonly=1&workItemId=317cc052-6dd6-4a2d-b79e-eef140937f56
+http://10.1.16.49:8080/yujiesuan/a/yusuan/yuSuanWeiTuoT/sjbgForm?yuSuanCgzgLeiXing=1&id=fd9da436-71c0-496b-b259-be602643a844&isNewSjbg=1&eatj=1&isbz=1&easlp=1&send=dfys&svdt=1&earj=1&eajt=1&isShowMsg=1&ActivtyName=%E9%A2%84%E7%AE%97%E7%BB%8F%E5%8A%9E%E4%BA%BA%E5%BD%95%E5%85%A5%E5%8D%95%E6%96%B9%E9%A2%84%E7%AE%97&adminPath=a&instanceId=5c4225b7-49da-4d69-9558-86f4dee418ea&bizType=yswt&bizCode=YS0036699&pointcode=zjsjbgbzyssp&contextPath=yujiesuan&workItemType=2&workItemId=5ee2b9fb-04c3-4194-9f36-6b782e3b4d10
+
+ 
+$.jBox.closeTip();
